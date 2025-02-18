@@ -1,0 +1,183 @@
+.conatiner_cadastrar_evento{
+    display: flex;
+    width: 99vw;
+    height: 100vh;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.title_cadastrar_evento{
+    display: flex;
+    padding-top: 5rem;
+    width: 80%;
+    font-size: 25px;
+    font-weight: 500;
+    color: #353535;
+    align-items: center;
+    gap: 10px;
+}
+
+.title_cadastrar_evento a{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #353535;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.body_cadastrar_evento{
+    display: flex;
+    width: 70%;
+    padding-top: 4rem;
+}
+
+.body_cadastrar_evento_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.item_flex_2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item_flex_2 label{
+    display: flex;
+    color: #353535;
+    font-size: 17px;
+}
+
+.item_flex_2 input{
+    display: flex;
+    color: #353535;
+    width: 400px;
+    height: 40px;
+}
+
+
+.conatiner_btn_cadastrar_evento{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.conatiner_btn_cadastrar_evento a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #7D009C;
+}
+
+
+.container_add_img{
+    display: flex;
+    background-color: rgb(182, 182, 182);
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container_add_img i{
+    display: flex;
+    font-size: 50px;
+}
+
+.item_flex_2 .input_fake{
+    display: flex;
+    width: 400px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #353535;
+}
+
+
+
+
+
+
+
+
+
+.body_cadastrar_evento_left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.conatiner_brda_palestra{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.bordar_status{
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+
+
+.conatiner_flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.conatiner_flex .input_fake2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #353535;
+    color: white;
+    width: 160px;
+    height: 40px;
+}
+
+.conatiner_btn_cadastar_palestra{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.conatiner_btn_cadastar_palestra a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: #7D009C;
+    width: 200px;
+    height: 40px;
+}

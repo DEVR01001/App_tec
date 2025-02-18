@@ -1,0 +1,19 @@
+.cad{
+    display: flex;
+    background-color: #7D009C;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conatiner_cad{
+    display: flex;
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

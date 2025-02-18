@@ -1,0 +1,116 @@
+.login{
+    display: flex;
+    background-color: #7D009C;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner_login{
+    display: flex;
+    width: 60%;
+    height: 70%;
+    background-color: white;
+}
+
+.left_login{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.title_login{
+    display: flex;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+
+
+}
+
+.item_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 0.5rem;
+}
+
+.item_flex label{
+    display: flex;
+    width: 100%;
+}
+.item_flex input{
+    display: flex;
+    width:300px;
+    outline: none;
+    height: 30px;
+
+}
+
+.cont_btn_login{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.cont_btn_login a{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #7D009C;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20PX;
+}
+
+.container_senha_esqueceu{
+    display: flex;
+    width: 100%;
+    justify-content:end;
+    padding-right: 4rem;
+}
+.container_senha_esqueceu a{
+    display: flex;
+    font-size: 13px;
+}
+
+.container_senha{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.container_senha p{
+    font-size: 12px;
+}
+
+
+.right_login{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #A903D2;
+}
+
+.right_login h6{
+    display: flex;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
+

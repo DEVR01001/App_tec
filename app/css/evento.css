@@ -1,0 +1,248 @@
+.conatiner_evento{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.right_conatiner_evento, .left_conatiner_evento{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.right_conatiner_evento{
+    align-items: center;
+}
+
+.right_conatiner_evento .title_evento{
+    display: flex;
+    font-size: 30px;
+    padding-top: 4rem;
+    width: 60%;
+    font-weight: 500;
+    color: #353535;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.right_conatiner_evento .title_evento a{
+    
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #353535;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.conatiner_item_evento{
+    display: flex;
+    width: 60%;
+    gap: 3rem;
+    font-size: 14px;
+
+}
+
+.conatiner_img_evento{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conatiner_img_evento img{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    margin-right: 5rem;
+}
+
+.descricao_evento{
+    display: flex;
+
+    width: 50%;
+    font-size: 16px;
+    margin-right: 5rem;
+    color: #353535;
+}
+
+.n_partciapante_evento{
+    display: flex;
+    width: 50%;
+    font-size: 16px;
+    margin-right: 5rem;
+    color: #353535;
+    padding-top: 2rem;
+}
+
+.palestrante_nome2{
+    display: flex;
+    width: 50%;
+    font-size: 16px;
+    margin-right: 5rem;
+    color: #353535;
+    padding-top: 1rem;
+}
+
+.conatiner_btn_evento{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2rem;
+}
+
+.conatiner_btn_evento a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: #7D009C;
+    color: white;
+    margin-right: 5rem;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+.left_conatiner_evento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+
+.tittle_palestras_evento{
+    display: flex;
+    width: 100%;
+    color: #353535;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 4rem;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.tittle_palestras_evento a{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #353535;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.body_palestras_lista{
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+}
+
+.body_palestras_lista_right{
+    display: flex;
+}
+
+.body_palestras_lista_right{
+    display: flex;
+    width: 60%;
+
+}
+
+.conatiner_img_right{
+    display: flex;
+    width: 50%;
+}
+
+.conatiner_img_right img{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(203, 203, 203);
+}
+
+.conatiner_text_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.conatiner_text_right .text_righ{
+    display: flex;
+    font-size: 6px;
+}
+
+.title_right{
+    display: flex;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.body_palestras_lista_left i{
+    width: 100%;
+    justify-self: end;
+    font-size: 25px;
+    color: #969696;
+    padding-left: 16rem;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.body_palestras_lista_left{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn_participar_left{
+    display: flex;
+    width: 90%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #7D009C;
+    text-decoration: none;
+    cursor: pointer;
+}
